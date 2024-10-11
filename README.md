@@ -39,6 +39,14 @@ Next, we need set up the database. Django uses a process called migrations to ha
 py manage.py migrate
 ```
 
+We also need to create our first user for the application. This will be our admin user. To do that, run:
+
+```sh
+py manage.py createsuperuser --username admin --email 'admin@example.com'
+```
+
+Django will ask you to enter a password. Use something that will be easy to remember, like `admin`. We don't really care about security right now...
+
 ## Updating the database
 
 If you ever make changes to the models in a project, you will need to update the database, by migrating the changes. To do this, run:
