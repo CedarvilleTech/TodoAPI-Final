@@ -1,6 +1,6 @@
 # Todo API Setup
 
-Note that if you are on Linux, any time you run a python command you should run `python <command>` instead of `py <command>`
+Note that if you are on Linux or Mac, any time you run `py <command>` you should run `python <command>` (Linux) or `python3 <command>` (Mac) instead.
 
 ## Environment setup
 
