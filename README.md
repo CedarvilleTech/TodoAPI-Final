@@ -1,6 +1,6 @@
 # Todo API Setup
 
-Note that if you are on Linux or Mac, any time you run `py <command>` you should run `python <command>` (Linux) or `python3 <command>` (Mac) instead.
+*Note that if you are on Linux or Mac, any time you run `py <command>` you should run `python <command>` (Linux) or `python3 <command>` (Mac) instead.*
 
 ## Environment setup
 
@@ -11,7 +11,6 @@ If running `py --version` in a terminal returns your version of python, you are 
 Next, install venv and set up a new virtual environment in the project's directory:
 
 ```sh
-pip install venv
 py -m venv venv
 ```
 
