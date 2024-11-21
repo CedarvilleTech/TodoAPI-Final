@@ -8,15 +8,13 @@
 
 If running `py --version` in a terminal returns your version of python, you are already set up with Python. Otherwise, go to the [Python download page](https://www.python.org/downloads/) and run the installer.
 
-Next, install venv and set up a new virtual environment in the project's directory:
+Next, set up a new virtual environment in the project's directory:
 
 ```sh
 py -m venv venv
 ```
 
-The virtual environment allows us to install other Python packages in a specific directory instead of globally.
-
-To enter the virutal environment, run one of the following:
+The virtual environment allows us to install other Python packages in a specific directory instead of globally. To enter the virutal environment, run one of the following:
 
 ```sh
 .\venv\Scripts\activate     # Windows
