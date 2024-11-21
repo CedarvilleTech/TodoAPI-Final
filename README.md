@@ -11,7 +11,6 @@ If running `py --version` in a terminal returns your version of python, you are 
 Next, install venv and set up a new virtual environment in the project's directory:
 
 ```sh
-pip install venv
 py -m venv venv
 ```
 
